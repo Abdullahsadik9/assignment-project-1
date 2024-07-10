@@ -46,6 +46,7 @@
   color: #ffffff;
   border: none;
   margin-top: 26px;
+  cursor: pointer;
 }
 /* banner section */
 .banner-container {
