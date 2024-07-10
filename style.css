@@ -6,6 +6,9 @@
   padding: 0;
   font-family: "Azeret Mono", monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* header section */
 .header-container {
@@ -72,6 +75,7 @@
   width: 852px;
   margin: 0 auto;
   padding-bottom: 50px;
+  text-align: center;
 }
 .banner-items {
   border-radius: 16px;
@@ -155,6 +159,9 @@
 .video {
   position: absolute;
   bottom: 4%;
+}
+iframe {
+  border-radius: 16px;
 }
 /* skills section */
 .slills-container {
