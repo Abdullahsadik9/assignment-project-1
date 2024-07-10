@@ -149,11 +149,51 @@
   height: 614px;
   position: relative;
 }
-/* border: 1px solid rgba(13, 19, 33, 0.2);
-border-radius: 16px;
-width: 1140px;
-height: 550px; */
 .video {
   position: absolute;
   bottom: 4%;
+}
+/* skills section */
+.slills-container {
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+.skill-title {
+  text-align: center;
+}
+.skill-title h1 {
+  color: rgb(13, 19, 33);
+  margin-bottom: 25px;
+  font-size: 32px;
+  font-weight: 800;
+}
+.skill-title p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+}
+.skill-content {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.skill-items {
+  position: relative;
+  top: 105px;
+  padding: 30px;
+  width: 364px;
+  height: 299px;
+  border-radius: 16px;
+}
+/* shared color */
+.clr1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.clr2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.br {
+  padding-bottom: 20px;
 }
